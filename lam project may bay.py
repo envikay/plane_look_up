@@ -236,7 +236,7 @@ root.geometry(f"{width}x{height}")
 root.attributes('-topmost', False)
 
 # Load the image using PIL
-image = Image.open('C:/Users/Admin/Documents/Python code/airforce.jpg')  # Replace with your image file
+image = Image.open('path')  # Replace with your image file
 background_image = ImageTk.PhotoImage(image.resize((width, height)))
 
 # Create a canvas widget
